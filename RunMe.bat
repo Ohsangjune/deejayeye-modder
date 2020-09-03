@@ -25,7 +25,7 @@ rd /S /Q %p_out% >nul 2>&1
 rd /S /Q %d_out% >nul 2>&1
 rd /S /Q %a_out% >nul 2>&1
 :chks
-call:chkinst "PutApkHere\orrg.apk"
+call:chkinst "PutApkHere\orig.apk"
 call:chkinst "tools\apktool.jar"
 call:chkinst "tools\bspatch.exe"
 call:chkinst "tools\patch.exe"
